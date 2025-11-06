@@ -7,3 +7,29 @@ create table videojuegos(
 	valoracion int,
 	constraint videojuegos_pk primary key (codigo)
 )
+
+insert into videojuegos (codigo,nombre,descripcion,valoracion)
+values (301,'Roblox','Plataforma interactiva',5)
+
+insert into videojuegos (codigo,nombre,descripcion,valoracion)
+values (302,'Candy','Plataforma de Adultos',4)
+
+insert into videojuegos (codigo,nombre,descripcion,valoracion)
+values (303,'Minicraft','Plataforma Mixta',3)
+
+insert into videojuegos (codigo,nombre,descripcion,valoracion)
+values (304,'NFS','Alta Velocidad',5)
+
+insert into videojuegos (codigo,nombre,descripcion,valoracion)
+values (305,'LOL','Plataforma interactiva',5)
+
+insert into videojuegos (codigo,nombre)
+values (306,'Final Fantasy VII Rebirth')
+
+insert into videojuegos (codigo,nombre)
+values (307,'Star Wars Outlaws')
+
+insert into videojuegos (codigo,nombre)
+values (308,'Baldurs Gate 3')
+
+

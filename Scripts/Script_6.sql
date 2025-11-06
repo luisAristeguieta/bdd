@@ -8,3 +8,34 @@ create table transacciones (
 	fecha date not null,
 	hora time not null
 )
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (401,'12345',200,'C','11/6/2025','17:42')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (402,'12346',300,'D','11/6/2025','17:43')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (403,'12347',400,'C','11/6/2025','17:44')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (404,'12348',500,'D','11/6/2025','17:45')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (405,'12349',600,'C','11/6/2025','17:46')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (406,'12340',700,'D','11/6/2025','17:47')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (407,'12342',800,'C','11/6/2025','17:48')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (408,'12342',900,'D','11/6/2025','17:49')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (409,'12343',100,'C','11/6/2025','17:50')
+
+insert into transacciones (codigo,numero_cuenta,monto,tipo,fecha,hora)
+values (400,'12344',250,'C','11/6/2025','17:51')
+
