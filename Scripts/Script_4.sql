@@ -40,3 +40,9 @@ values (209,'1234567898','11/6/1990','17:40')
 insert into registro_entrada (codigo_registro,cedula_empleado,fecha,hora)
 values (200,'1234567899','11/6/1990','17:41')
 
+select cedula_empleado,fecha,hora from registro_entrada
+select * from registro_entrada where hora between '7:00' and '14:00'
+select * from registro_entrada where hora > '8:00'
+
+
+

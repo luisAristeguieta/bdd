@@ -39,3 +39,8 @@ insert into cuentas (numero_cuenta,cedula_propietario,saldo)
 values (12344,54326,1100)
 
 select * from cuentas
+
+select numero_cuenta,saldo from cuentas
+select * from cuentas where fecha_creacion <= '2025-11-7'
+select numero_cuenta,saldo from cuentas where fecha_creacion <= '2025-11-7'
+

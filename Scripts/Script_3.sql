@@ -35,4 +35,7 @@ values ('1234567897','Luis','Bustamente','correo7@gmail.com','4/1/1998')
 
 select * from Estudiantes
 
+select nombre,cedula from Estudiantescedula 
+select nombre from Estudiantes where cedula = '17'
+select nombre,apellido from Estudiantes where nombre like 'A%'
 

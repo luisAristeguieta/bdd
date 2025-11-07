@@ -32,4 +32,6 @@ values (307,'Star Wars Outlaws')
 insert into videojuegos (codigo,nombre)
 values (308,'Baldurs Gate 3')
 
-
+select * from videojuegos where nombre like 'C%'
+select * from videojuegos where valoracion between '9' and '10'
+select * from videojuegos where descripcion is null
