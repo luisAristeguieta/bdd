@@ -39,3 +39,4 @@ select nombre,cedula from Estudiantescedula
 select nombre from Estudiantes where cedula = '17'
 select nombre,apellido from Estudiantes where nombre like 'A%'
 
+update Estudiantes set apellido = 'Hernandez' where cedula like '17%'
