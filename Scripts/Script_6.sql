@@ -47,3 +47,6 @@ update transacciones set tipo ='T'
 where  monto > money(100) and monto < money(500) 
 and fecha between '2025/09/01' and '2025/09/30' 
 and hora between '14:00' and '20:00'
+
+delete from transacciones where hora between '14:00' and '20:00'
+and fecha between '2025/08/01' and '2025/08/31' 

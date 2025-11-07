@@ -46,4 +46,5 @@ select numero_cuenta,saldo from cuentas where fecha_creacion <= '2025-11-7'
 
 update cuentas set saldo = 10 where cedula_propietario like '17%'
 
+delete from cuentas where cedula_propietario like '10%'
 
