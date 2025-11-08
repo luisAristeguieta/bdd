@@ -35,10 +35,15 @@ values ('1234567897','Luis','Bustamente','correo7@gmail.com','4/1/1998')
 
 select * from Estudiantes
 
-select nombre,cedula from Estudiantescedula 
+select nombre,cedula from Estudiantes 
 select nombre from Estudiantes where cedula = '17'
 select nombre,apellido from Estudiantes where nombre like 'A%'
 
 update Estudiantes set apellido = 'Hernandez' where cedula like '17%'
 
 delete from Estudiantes where cedula like '%05'
+
+select nombre,apellido from Estudiantes where nombre like 'm%' or apellido like '%z'
+select nombre from Estudiantes where cedula like '18%' and cedula like '%32%'
+select nombre,apellido from Estudiantes where cedula like '17%' and cedula like '%06'
+

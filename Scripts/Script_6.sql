@@ -50,3 +50,14 @@ and hora between '14:00' and '20:00'
 
 delete from transacciones where hora between '14:00' and '20:00'
 and fecha between '2025/08/01' and '2025/08/31' 
+
+select * from transacciones where (tipo like 'C%') and (numero_cuenta between '22004' and '222001')
+
+select * from transacciones where (tipo like 'D%') 
+and (numero_cuenta between '22007' and '22010')
+and (fecha = '2025/05/25')
+
+select * from transacciones where (codigo >= 1 and codigo <= 5 ) 
+and (numero_cuenta ='22002' or numero_cuenta = '22004')
+and (fecha = '2025/05/26' or fecha ='2025/05/29')
+
